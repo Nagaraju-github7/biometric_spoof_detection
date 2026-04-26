@@ -1,0 +1,36 @@
+# Virtual environments
+finger_print_env/
+venv/
+env/
+.venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+dataset/
+models/
+checkpoints/
+training_logs/
+*.pth
+
+camera_capture_*.png
